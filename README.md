@@ -7,14 +7,13 @@
 ### 如果你想要使用（开发全新的插件而不是开发这个模板）
 
 1. `use this template`
-2. 进行相关名称的替换。这里给出参考（注意遵守大小写）
-   - `MyPluginSettings` `main.ts`
-   - `mySetting` `main.ts`
-   - `MyPlugin` `main.ts`
-   - `SampleSettingTab` `main.ts`
-   - `"id": "sample-plugin"` `manifest.json`
-   - `"name": "Sample Plugin"` `manifest.json`
+2. 进行相关名称的替换。这里以 `main.ts` 给出参考（注意遵守大小写）
+   - `MyPluginSettings` 
+   - `mySetting` 
+   - `MyPlugin` 
+   - `SampleSettingTab`
    - 其余命名系统请自行决定。
+3. 插件信息 `manifest.json` 其中的内容需要几乎全部重写。 参考：[官英](https://docs.obsidian.md/Reference/Manifest),或者[社区中文翻译](https://liubinfighter.github.io/obsidian-dev-docs-zh/zh/reference/manifest.html)
 
 ### 已完成的重复工作
 
