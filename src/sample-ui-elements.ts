@@ -1,5 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin } from 'obsidian';
-import { PluginWithSettings } from './setting-tab';
+import { PluginWithSettings } from './sample-setting-tab';
 
 /**
  * Modal for displaying sample content

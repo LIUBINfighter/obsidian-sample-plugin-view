@@ -1,5 +1,5 @@
 import { Plugin } from 'obsidian';
-import { MyPluginSettings, DEFAULT_SETTINGS, SampleSettingTab } from './setting-tab';
+import { MyPluginSettings, DEFAULT_SETTINGS, SampleSettingTab } from './sample-setting-tab';
 import { registerRibbonIcon, registerStatusBar, registerCommands, registerEvents } from './sample-ui-elements';
 
 export default class MyPlugin extends Plugin {
