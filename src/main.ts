@@ -1,6 +1,6 @@
 import { Plugin } from 'obsidian';
 import { MyPluginSettings, DEFAULT_SETTINGS, SampleSettingTab } from './setting-tab';
-import { registerRibbonIcon, registerStatusBar, registerCommands, registerEvents } from './ui-elements';
+import { registerRibbonIcon, registerStatusBar, registerCommands, registerEvents } from './sample-ui-elements';
 
 export default class MyPlugin extends Plugin {
 	settings: MyPluginSettings;
@@ -8,7 +8,7 @@ export default class MyPlugin extends Plugin {
 	async onload() {
 		await this.loadSettings();
 
-		// Register UI elements and commands
+		// Register sample UI elements and commands
 		registerRibbonIcon(this);
 		registerStatusBar(this);
 		registerCommands(this);
